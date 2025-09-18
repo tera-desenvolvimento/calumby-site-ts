@@ -1,0 +1,41 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.experience-container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    max-width: 500px;
+    gap: 30px;
+}
+
+.experience-container .header .top-span {
+    font-family: "sfpro-bold";
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.experience-container .header .main-span {
+    font-family: "sfpro-bold";
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.experience-container .header .main-span span {
+    color: #FF5770;
+}
+
+.experience-container .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+}

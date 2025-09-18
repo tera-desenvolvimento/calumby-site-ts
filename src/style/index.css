@@ -1,0 +1,30 @@
+body, * {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #030C0F;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: "sfpro-regular";
+    src: url("../fonts/sf-pro-display/SFPRODISPLAY-REGULAR.OTF");
+}
+
+@font-face {
+    font-family: "sfpro-medium";
+    src: url("../fonts/sf-pro-display/SFPRODISPLAY-MEDIUM.OTF");
+}
+
+@font-face {
+    font-family: "sfpro-bold";
+    src: url("../fonts/sf-pro-display/SFPRODISPLAY-BOLD.OTF");
+}

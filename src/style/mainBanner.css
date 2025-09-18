@@ -1,0 +1,81 @@
+.main-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    margin-top: -80px;
+    margin-left: 190px;
+}
+
+.main-banner-container .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-banner-container .copy-wrapper {
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-banner-container .copy-wrapper .text-wrapper .main-text {
+    display: inline-block;
+    font-family: "sfpro-regular";
+    color: #ffffff;
+    font-size: 43px;
+}
+
+.main-banner-container .copy-wrapper .text-wrapper .main-text .bold {
+    font-family: "sfpro-bold";
+    color: #523FFD;
+}
+
+.main-banner-container .copy-wrapper .text-wrapper .sub-text {
+    font-family: "sfpro-regular";
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.main-banner-container .copy-wrapper .buttons-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-banner-container .copy-wrapper .buttons-wrapper a {
+    font-family: "sfpro-regular";
+    color: #ffffff;
+    text-decoration: none;
+    background: #523FFD;
+    padding: 10px 2rem;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 30px;
+    transition: ease-in-out .3s all;
+}
+
+.main-banner-container .copy-wrapper .buttons-wrapper a:hover {
+    box-shadow: 0 9px 34.8px 0 rgba(255, 59, 88, 0.34);
+}
+
+.main-banner-container .copy-wrapper .buttons-wrapper a:last-child {
+    padding: 10px 30px;
+}
+
+@media (max-width: 1400px) {
+    .main-banner-container .image-wrapper img {
+        width: 750px;
+    }
+
+    .main-banner-container .copy-wrapper .text-wrapper .main-text {
+        font-size: 2rem;
+    }
+
+    .main-banner-container .copy-wrapper .buttons-wrapper a {
+        padding: 10px 1rem;
+    }
+}

@@ -1,0 +1,8 @@
+.footer-container {
+    display: flex;
+    background-color: #081B21;
+    padding: 40px;
+    font-family: "sfpro-regular";
+    color: #ffffff;
+    justify-content: space-around;
+}
