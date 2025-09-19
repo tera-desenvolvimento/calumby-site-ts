@@ -35,7 +35,7 @@ const MainBanner = () => {
                 </div>
             </div>
             <div className="image-wrapper">
-                <img src={lucasImg} className="banner-img" />
+                <img src={lucasImg} className="banner-img" loading="lazy" height={900}/>
             </div>
         </div>
     )
