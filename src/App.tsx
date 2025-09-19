@@ -6,6 +6,7 @@ import Services from './components/services';
 import Sliders from './components/sliders';
 import Experience from './components/experience';
 import Footer from './components/footer';
+import Effects from './components/effects';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Sliders />
       <Experience />
       <Footer />
+      <Effects />
     </React.Fragment>
   );
 }

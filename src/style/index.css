@@ -28,3 +28,7 @@ body {
     font-family: "sfpro-bold";
     src: url("../fonts/sf-pro-display/SFPRODISPLAY-BOLD.OTF");
 }
+
+.main-banner-container, .services-container, .services-container, .habilities-container, .competencies-container, .experience-container {
+    z-index: 100;
+}
